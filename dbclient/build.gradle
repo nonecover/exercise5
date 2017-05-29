@@ -28,7 +28,9 @@ ext {
 dependencies {
     compile libraries.log4j
     compile libraries.hsqldb
-    }
+    compile "com.google.guava:guava:16+"
+    
+}
 
 apply plugin: 'application'
-mainClassName = "wdsr.exercise5.Main"
+mainClassName = "com.jakomulski.dbclient.Main"
